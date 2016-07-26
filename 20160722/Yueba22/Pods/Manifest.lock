@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AVOSCloud (3.2.9)
+  - AVOSCloudIM (3.2.9):
+    - AVOSCloud
+  - BaiduMapKit (2.10.2)
+  - Masonry (1.0.0)
+  - SVProgressHUD (2.0.3)
+  - SWRevealViewController (2.3.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AVOSCloud
+  - AVOSCloudIM
+  - BaiduMapKit
+  - Masonry
+  - SVProgressHUD (~> 2.0.3)
+  - SWRevealViewController (~> 2.3.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AVOSCloud: b020009b1f2e35c271d4d019075458c879fc1d21
+  AVOSCloudIM: c70e31bfee8a0b52c8236e657414cf56bafc8796
+  BaiduMapKit: b1706a062597c70ec62a0cca93212cba1d3017e1
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+
+PODFILE CHECKSUM: a49a37e9ff96dac115e9f1c979c0ae3619a94b55
+
+COCOAPODS: 1.0.1
