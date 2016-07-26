@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC813D0E1D3DCB72002FCC98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC813D0D1D3DCB72002FCC98 /* main.m */; };
+		CC813D111D3DCB72002FCC98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC813D101D3DCB72002FCC98 /* AppDelegate.m */; };
+		CC813D141D3DCB72002FCC98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC813D131D3DCB72002FCC98 /* ViewController.m */; };
+		CC813D171D3DCB72002FCC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC813D151D3DCB72002FCC98 /* Main.storyboard */; };
+		CC813D1A1D3DCB72002FCC98 /* PersonCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC813D181D3DCB72002FCC98 /* PersonCard.xcdatamodeld */; };
+		CC813D1C1D3DCB72002FCC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC813D1B1D3DCB72002FCC98 /* Assets.xcassets */; };
+		CC813D1F1D3DCB72002FCC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC813D1D1D3DCB72002FCC98 /* LaunchScreen.storyboard */; };
+		CC813D2E1D3DD925002FCC98 /* Card+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CC813D271D3DD925002FCC98 /* Card+CoreDataProperties.m */; };
+		CC813D2F1D3DD925002FCC98 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = CC813D291D3DD925002FCC98 /* Card.m */; };
+		CC813D301D3DD925002FCC98 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CC813D2B1D3DD925002FCC98 /* Person+CoreDataProperties.m */; };
+		CC813D311D3DD925002FCC98 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CC813D2D1D3DD925002FCC98 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC813D091D3DCB72002FCC98 /* PersonCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC813D0D1D3DCB72002FCC98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC813D0F1D3DCB72002FCC98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC813D101D3DCB72002FCC98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC813D121D3DCB72002FCC98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC813D131D3DCB72002FCC98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC813D161D3DCB72002FCC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC813D191D3DCB72002FCC98 /* PersonCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonCard.xcdatamodel; sourceTree = "<group>"; };
+		CC813D1B1D3DCB72002FCC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC813D1E1D3DCB72002FCC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC813D201D3DCB72002FCC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC813D261D3DD925002FCC98 /* Card+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CC813D271D3DD925002FCC98 /* Card+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CC813D281D3DD925002FCC98 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		CC813D291D3DD925002FCC98 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		CC813D2A1D3DD925002FCC98 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CC813D2B1D3DD925002FCC98 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CC813D2C1D3DD925002FCC98 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CC813D2D1D3DD925002FCC98 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC813D061D3DCB72002FCC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC813D001D3DCB72002FCC98 = {
+			isa = PBXGroup;
+			children = (
+				CC813D0B1D3DCB72002FCC98 /* PersonCard */,
+				CC813D0A1D3DCB72002FCC98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC813D0A1D3DCB72002FCC98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC813D091D3DCB72002FCC98 /* PersonCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC813D0B1D3DCB72002FCC98 /* PersonCard */ = {
+			isa = PBXGroup;
+			children = (
+				CC813D0F1D3DCB72002FCC98 /* AppDelegate.h */,
+				CC813D101D3DCB72002FCC98 /* AppDelegate.m */,
+				CC813D121D3DCB72002FCC98 /* ViewController.h */,
+				CC813D131D3DCB72002FCC98 /* ViewController.m */,
+				CC813D261D3DD925002FCC98 /* Card+CoreDataProperties.h */,
+				CC813D271D3DD925002FCC98 /* Card+CoreDataProperties.m */,
+				CC813D281D3DD925002FCC98 /* Card.h */,
+				CC813D291D3DD925002FCC98 /* Card.m */,
+				CC813D2A1D3DD925002FCC98 /* Person+CoreDataProperties.h */,
+				CC813D2B1D3DD925002FCC98 /* Person+CoreDataProperties.m */,
+				CC813D2C1D3DD925002FCC98 /* Person.h */,
+				CC813D2D1D3DD925002FCC98 /* Person.m */,
+				CC813D151D3DCB72002FCC98 /* Main.storyboard */,
+				CC813D1B1D3DCB72002FCC98 /* Assets.xcassets */,
+				CC813D1D1D3DCB72002FCC98 /* LaunchScreen.storyboard */,
+				CC813D201D3DCB72002FCC98 /* Info.plist */,
+				CC813D181D3DCB72002FCC98 /* PersonCard.xcdatamodeld */,
+				CC813D0C1D3DCB72002FCC98 /* Supporting Files */,
+			);
+			path = PersonCard;
+			sourceTree = "<group>";
+		};
+		CC813D0C1D3DCB72002FCC98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC813D0D1D3DCB72002FCC98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC813D081D3DCB72002FCC98 /* PersonCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC813D231D3DCB72002FCC98 /* Build configuration list for PBXNativeTarget "PersonCard" */;
+			buildPhases = (
+				CC813D051D3DCB72002FCC98 /* Sources */,
+				CC813D061D3DCB72002FCC98 /* Frameworks */,
+				CC813D071D3DCB72002FCC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonCard;
+			productName = PersonCard;
+			productReference = CC813D091D3DCB72002FCC98 /* PersonCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC813D011D3DCB72002FCC98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = QingYun;
+				TargetAttributes = {
+					CC813D081D3DCB72002FCC98 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CC813D041D3DCB72002FCC98 /* Build configuration list for PBXProject "PersonCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC813D001D3DCB72002FCC98;
+			productRefGroup = CC813D0A1D3DCB72002FCC98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC813D081D3DCB72002FCC98 /* PersonCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC813D071D3DCB72002FCC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC813D1F1D3DCB72002FCC98 /* LaunchScreen.storyboard in Resources */,
+				CC813D1C1D3DCB72002FCC98 /* Assets.xcassets in Resources */,
+				CC813D171D3DCB72002FCC98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC813D051D3DCB72002FCC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC813D2E1D3DD925002FCC98 /* Card+CoreDataProperties.m in Sources */,
+				CC813D1A1D3DCB72002FCC98 /* PersonCard.xcdatamodeld in Sources */,
+				CC813D311D3DD925002FCC98 /* Person.m in Sources */,
+				CC813D141D3DCB72002FCC98 /* ViewController.m in Sources */,
+				CC813D111D3DCB72002FCC98 /* AppDelegate.m in Sources */,
+				CC813D0E1D3DCB72002FCC98 /* main.m in Sources */,
+				CC813D301D3DD925002FCC98 /* Person+CoreDataProperties.m in Sources */,
+				CC813D2F1D3DD925002FCC98 /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC813D151D3DCB72002FCC98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC813D161D3DCB72002FCC98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC813D1D1D3DCB72002FCC98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC813D1E1D3DCB72002FCC98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC813D211D3DCB72002FCC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC813D221D3DCB72002FCC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC813D241D3DCB72002FCC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qingyun.PersonCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC813D251D3DCB72002FCC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qingyun.PersonCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC813D041D3DCB72002FCC98 /* Build configuration list for PBXProject "PersonCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC813D211D3DCB72002FCC98 /* Debug */,
+				CC813D221D3DCB72002FCC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC813D231D3DCB72002FCC98 /* Build configuration list for PBXNativeTarget "PersonCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC813D241D3DCB72002FCC98 /* Debug */,
+				CC813D251D3DCB72002FCC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC813D181D3DCB72002FCC98 /* PersonCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC813D191D3DCB72002FCC98 /* PersonCard.xcdatamodel */,
+			);
+			currentVersion = CC813D191D3DCB72002FCC98 /* PersonCard.xcdatamodel */;
+			path = PersonCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC813D011D3DCB72002FCC98 /* Project object */;
+}
