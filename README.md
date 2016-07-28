@@ -38,3 +38,7 @@
 
 ####[20160726](https://github.com/DeadAndLife/YueBa/tree/master/20160726)
 * 录音功能
+
+####[20160728](https://github.com/DeadAndLife/YueBa/tree/master/20160728)
+* 自定义转场动画
+
